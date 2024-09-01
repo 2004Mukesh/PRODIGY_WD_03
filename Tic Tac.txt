@@ -62,7 +62,8 @@ body {
 
 button {
     margin-top: 20px;
-    padding: 10px 20px;let board = ["", "", "", "", "", "", "", "", ""];
+    padding: 10px 20px;
+let board = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
 let isGameActive = true;
 
@@ -113,12 +114,3 @@ function resetGame() {
     }
 }
 
-    font-size: 1em;
-    cursor: pointer;
-}
-
-#message {
-    margin-top: 20px;
-    font-size: 1.2em;
-    color: #333;
-}
